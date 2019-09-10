@@ -16,12 +16,12 @@ if ! [ -d pretrained ]; then
 fi
 if ! [ -f "pretrained/bvlc_googlenet.caffemodel.pth" ]; then
     echo "Downloading pretrained inception_v1..."
-    wget "https://www.dropbox.com/s/2ljm35ztj6hllcu/bvlc_googlenet.caffemodel.pth?dl=0" -O pretrained/bvlc_googlenet.caffemodel.pth
+    wget -nc "https://www.dropbox.com/s/2ljm35ztj6hllcu/bvlc_googlenet.caffemodel.pth?dl=0" -O pretrained/bvlc_googlenet.caffemodel.pth
     echo "Done!"
 fi
 if ! [ -f "pretrained/pose_iter_440000.caffemodel.pth" ]; then
     echo "Downloading pretrained cpm..."
-    wget "https://www.dropbox.com/s/pzb3ow1793yf8dc/pose_iter_440000.caffemodel.pth?dl=0" -O pretrained/pose_iter_440000.caffemodel.pth
+    wget -nc "https://www.dropbox.com/s/pzb3ow1793yf8dc/pose_iter_440000.caffemodel.pth?dl=0" -O pretrained/pose_iter_440000.caffemodel.pth
     echo "Done!"
 fi
 

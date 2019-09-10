@@ -1,0 +1,61 @@
+Set os.envirionments from paths...
+----------------------------------
+CPM_PRETRAINED pretrained/pose_iter_440000.caffemodel.pth
+DUKEMTMC_DATA_ROOT $(pwd)/data/dukemtmc/raw/DukeMTMC-reID
+INCEPTION_V1_PRETRAINED pretrained/bvlc_googlenet.caffemodel.pth
+MARKET1501_DATA_ROOT $(pwd)/data/market1501/raw/Market-1501-v15.09.15
+----------------------------------
+done!
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11253
+  val      |   100 |     1683
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+=> Loaded checkpoint './logs/market1501/tmp/epoch_750.pth.tar'
+Extract Features: [10/386]	Time 0.158 (0.157)	Data 0.082 (0.081)	
+Extract Features: [20/386]	Time 0.134 (0.151)	Data 0.060 (0.077)	
+Extract Features: [30/386]	Time 0.164 (0.151)	Data 0.079 (0.076)	
+Extract Features: [40/386]	Time 0.144 (0.149)	Data 0.072 (0.074)	
+Extract Features: [50/386]	Time 0.126 (0.146)	Data 0.060 (0.071)	
+Extract Features: [60/386]	Time 0.151 (0.144)	Data 0.076 (0.070)	
+Extract Features: [70/386]	Time 0.146 (0.148)	Data 0.068 (0.073)	
+Extract Features: [80/386]	Time 0.133 (0.148)	Data 0.061 (0.073)	
+Extract Features: [90/386]	Time 0.148 (0.147)	Data 0.079 (0.072)	
+Extract Features: [100/386]	Time 0.154 (0.147)	Data 0.073 (0.072)	
+Extract Features: [110/386]	Time 0.133 (0.148)	Data 0.063 (0.073)	
+Extract Features: [120/386]	Time 0.160 (0.148)	Data 0.081 (0.073)	
+Extract Features: [130/386]	Time 0.130 (0.148)	Data 0.057 (0.073)	
+Extract Features: [140/386]	Time 0.126 (0.147)	Data 0.054 (0.072)	
+Extract Features: [150/386]	Time 0.143 (0.147)	Data 0.071 (0.072)	
+Extract Features: [160/386]	Time 0.179 (0.147)	Data 0.093 (0.072)	
+Extract Features: [170/386]	Time 0.217 (0.147)	Data 0.142 (0.072)	
+Extract Features: [180/386]	Time 0.129 (0.148)	Data 0.054 (0.072)	
+Extract Features: [190/386]	Time 0.140 (0.147)	Data 0.067 (0.072)	
+Extract Features: [200/386]	Time 0.127 (0.146)	Data 0.054 (0.071)	
+Extract Features: [210/386]	Time 0.127 (0.145)	Data 0.055 (0.070)	
+Extract Features: [220/386]	Time 0.125 (0.145)	Data 0.054 (0.070)	
+Extract Features: [230/386]	Time 0.145 (0.144)	Data 0.065 (0.069)	
+Extract Features: [240/386]	Time 0.154 (0.144)	Data 0.079 (0.069)	
+Extract Features: [250/386]	Time 0.153 (0.144)	Data 0.081 (0.069)	
+Extract Features: [260/386]	Time 0.141 (0.144)	Data 0.066 (0.069)	
+Extract Features: [270/386]	Time 0.132 (0.144)	Data 0.055 (0.069)	
+Extract Features: [280/386]	Time 0.152 (0.145)	Data 0.079 (0.070)	
+Extract Features: [290/386]	Time 0.134 (0.145)	Data 0.062 (0.070)	
+Extract Features: [300/386]	Time 0.129 (0.144)	Data 0.055 (0.069)	
+Extract Features: [310/386]	Time 0.153 (0.145)	Data 0.081 (0.070)	
+Extract Features: [320/386]	Time 0.138 (0.145)	Data 0.069 (0.070)	
+Extract Features: [330/386]	Time 0.141 (0.145)	Data 0.075 (0.070)	
+Extract Features: [340/386]	Time 0.140 (0.145)	Data 0.063 (0.070)	
+Extract Features: [350/386]	Time 0.143 (0.145)	Data 0.070 (0.070)	
+Extract Features: [360/386]	Time 0.127 (0.145)	Data 0.055 (0.071)	
+Extract Features: [370/386]	Time 0.164 (0.146)	Data 0.078 (0.071)	
+Extract Features: [380/386]	Time 0.213 (0.146)	Data 0.138 (0.071)	
+CMC Scores
+  top-1          91.8%
+  top-5          97.1%
+  top-10         98.1%
+ Mean AP: 80.1%

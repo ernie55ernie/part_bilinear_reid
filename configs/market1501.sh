@@ -1,6 +1,6 @@
 PYTHON='python'
 EXP_ID='tmp'
-GPU_ID="0,1"
+GPU_ID="2"
 
 # model
 ARCH='inception_v1_cpm'

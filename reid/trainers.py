@@ -34,7 +34,7 @@ class BaseTrainer(object):
 #            pdb.set_trace()
             loss, prec1, num_eff, num_all = self._forward(inputs, targets)
 
-            losses.update(loss.data[0], targets.size(0))
+            losses.update(loss.data.item(), targets.size(0))
             precisions.update(prec1, targets.size(0))
             num_effs.update(float(num_eff), targets.size(0))
             num_alls.update(float(num_all), targets.size(0))
